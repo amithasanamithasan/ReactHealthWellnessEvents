@@ -6,7 +6,7 @@
       "image": "https://i.im.ge/2024/05/25/KaF6SM.erik-brolin-ZARfCYDaVg0-unsplash.jpeg",
       "price": "$200",
       "short_description": "A rejuvenating weekend retreat focusing on yoga and meditation practices.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFN6Y.July2023-Nutrition-and-Mental-Wellbeing-Workshop-LCD-Screens.png",
       "price": "$50",
       "short_description": "Learn about balanced diets and wellness routines in this interactive workshop.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFPVD.unnamed.jpeg",
       "price": "$75",
       "short_description": "Techniques and practices to reduce stress and enhance mindfulness.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFCgq.navy-basic-training-fitness-1.webp",
       "price": "$150",
       "short_description": "An intensive bootcamp to kickstart your fitness journey.",
-      "button_text": "Join Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFYE1.world-health-day-background-image-669954-23192.jpeg",
       "price": "$30",
       "short_description": "Explore various holistic health practices and products.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFbvf.Spa-and-Wellness-Day.jpeg",
       "price": "$120",
       "short_description": "A day of relaxation and wellness treatments at a luxury spa.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "image": "https://i.im.ge/2024/05/25/KaFGrz.Mental-Health-Awareness-Workshop.jpeg",
       "price": "$40",
       "short_description": "Raise awareness and learn strategies for maintaining mental health.",
-      "button_text": "Enroll"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "image": "https://i.im.ge/2024/05/25/KaF4fS.Outdoor-Adventure-and-Wellness-Retreat.jpeg",
       "price": "$250",
       "short_description": "Combine adventure activities with wellness practices in a natural setting.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     },
     {
       "id": 9,
@@ -70,6 +70,6 @@
       "image": "https://i.im.ge/2024/05/25/Kai3If.Wellness-Expos.jpeg",
       "price": "$250",
       "short_description": "Combine adventure activities with wellness practices in a natural setting.",
-      "button_text": "Book Now"
+      "button_text": "SEE_DETAILS"
     }
   ]
