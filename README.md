@@ -8,7 +8,8 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 |SNO| |Web_Project_Features| |Link| 
-|**|
+|-|-|-|-|
+|-| HoME |Explanation Link|(http://localhost:5173/)
 
 Currently, two official plugins are available:
 
