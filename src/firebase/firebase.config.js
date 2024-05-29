@@ -7,13 +7,16 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
+ console.log('inside firebase config',import.meta.env.VITE_PASS)
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCCk6KguiR8JdlIRcgGWq3XYbCUoeIHDFI",
-  authDomain: "reacthealthwellnessevents.firebaseapp.com",
-  projectId: "reacthealthwellnessevents",
-  storageBucket: "reacthealthwellnessevents.appspot.com",
-  messagingSenderId: "329367866136",
-  appId: "1:329367866136:web:79dd41dc70d71eb1536c6d"
+  apiKey:import.meta.env.VITE_APIKEY,
+  authDomain:import.meta.env.VITE_AUTHDOMAIN ,
+  projectId:import.meta.env. VITE_PROJECTID ,
+  storageBucket:import.meta.env.VITE_STORAGEBUCKET ,
+  messagingSenderId:import.meta.env.VITE_MESSAGINGSENDERID ,
+  appId:import.meta.env. VITE_APPID,
 };
 
 // Initialize Firebase
