@@ -11,12 +11,31 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 |01| HoME |Explanation Link|(http://localhost:5173/)
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
+|   SerialNo    |    Features     | Link  |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+|        1      | Home            |http:/ |
+|        2      | Header          |       |
+|        3      | Banner          |       |
+|        4      | Navbar          |       |
+|        5      | service         |       |
+|        6      | servicecard     |       |
+|        7      | AuthProvider    |       |
+|        8      | Privetroute     |       |
+|        9      | profileuser     |       |
+|        10     | servicedetails  |       |
+|        11     | servicedetlscard|       |
+|        12     | Localstorage    |       |
+|        13     | user Book Items |       |
+|        14     | Auth login      |       |
+|        15     | user register   |       |
+|        16     | singingoogleauth|       |
+|        17     | onouthLogsignin |       |
+|        18     | About Us        |       |
+|        19     | Contact Us      |       |
+|        20     |forgotpassword   |       |
 
+
+    
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
