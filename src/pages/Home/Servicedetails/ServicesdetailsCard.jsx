@@ -3,26 +3,60 @@ import { useContext } from "react";
 import Footer from "../Footer/Footer";
 import Marquee from "react-fast-marquee";
 import { Authcontext } from "../../../providers/AuthProvider";
-import { Link } from "react-router-dom";
+
 import { FaFacebook } from "react-icons/fa";
 import { RxTwitterLogo } from "react-icons/rx";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
-
+import swal from "sweetalert";
 
 
 
 
 const ServicesdetailsCard = ({service}) => {
 
- const {user,logOut}=useContext(Authcontext)
- const handelSignOUT=()=>{
-  logOut()
-  .then()
-  .catch()
- }
+ const {user}=useContext(Authcontext)
+ console.log(user)
+
+  
+
+ 
+
+
+ 
 
     const{id,name,image,price,short_description,button_text}=service;
+
+    const handeladdservice=()=>{
+      console.log('ami aci tumi nie');
+
+      const addfavoriteitmsarry=[];
+
+      const favoriteItems =JSON.parse(localStorage.getItem('favorites'))
+      if(!favoriteItems){
+        addfavoriteitmsarry.push(service)
+        localStorage.setItem('favorites',JSON.stringify(addfavoriteitmsarry))
+        swal("Good job!", "Health and Wellness Events service !", "success");
+      }
+      else{
+     const isExits = favoriteItems.find(services=> services.id == id)
+     console.log(isExits);
+      if(!isExits){
+        addfavoriteitmsarry.push( ...favoriteItems,service)
+        localStorage.setItem('favorites',JSON.stringify(addfavoriteitmsarry))
+        swal("Good job!", "Health and Wellness Events service !", "success");
+      }
+      else{
+        swal("ERROR!", "sevice already added !", "error");
+      }
+
+        
+       
+      }
+    }
+
+
+
     return (
         <div>
      <div className="card  md:card-side lg:card-side mr-4 bg-stone-800  rounded-lg shadow-xl  top-3">
@@ -35,13 +69,12 @@ const ServicesdetailsCard = ({service}) => {
    
   
    
-   {
-    user ?  <Link to ="/ServicesdetailsCard">  <button onClick={handelSignOUT}  className="btn btn-primary" data-aos="zoom-in-up">Book-Now</button></Link> 
-    :
-    <Link to="/login">
-    <button className="btn btn-primary">LOG_IN</button></Link>
+   <button  onClick={handeladdservice} className="btn btn-primary" data-aos="zoom-in-up">
+              Book-Now</button>
+  
+  
    
-   }
+  
       
     
     </div>

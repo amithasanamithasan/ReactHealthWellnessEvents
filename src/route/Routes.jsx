@@ -11,6 +11,7 @@ import Service from "../pages/Home/Service/Service";
 import Fairs from "../pages/Home/Service/HealthFairs/Fairs";
 import Contact from "../pages/Shared/Contact/Contact";
 import About from "../pages/Shared/About/About";
+import Userservice from "../pages/Home/Services/Userservice/Userservice";
 
 
 
@@ -38,6 +39,10 @@ const router= createBrowserRouter([
              path:'/services',
              element:<PrivateRoute> <Service></Service></PrivateRoute>,
              loader:()=>fetch('/services.json')
+            },
+            {
+               path:'/userservice',
+               element:<PrivateRoute><Userservice></Userservice></PrivateRoute>
             },
             {
               path:'/sevices1',
