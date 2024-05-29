@@ -18,7 +18,7 @@ const Servicedetails = () => {
 useEffect(()=>{
    const servicefind= services?.find(service=> service.id==id)
    SetServices(servicefind);
-},[id,services])
+     },[id,services])
 
 
     return (
@@ -29,7 +29,7 @@ useEffect(()=>{
        
         <div>
             <div>
-                <ServicesdetailsCard service={service}></ServicesdetailsCard>
+               <ServicesdetailsCard service={service}></ServicesdetailsCard>
             </div>
 
         </div>

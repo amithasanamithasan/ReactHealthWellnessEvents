@@ -14,22 +14,22 @@ const spanStyle = {
     alignItems: 'center',
     justifyContent: 'center',
     backgroundSize: 'cover',
-    height: '400px'
+    height: '500px'
   }
 
 const Banner = () => {
 
     const slideImages = [
         {
-          url: 'https://i.im.ge/2024/05/25/KsnvWJ.pexels-shvetsa-3845810-1.jpeg',
+          url: 'https://i.im.ge/2024/05/28/KDiCQ9.health-wellbeing-wellness-vitality-healthcare-concept-74313146.webp',
          
         },
         {
-          url: 'https://i.im.ge/2024/05/25/Ks4YCF.pexels-rdne-6129237.jpeg',
+          url: 'https://i.im.ge/2024/05/28/KDiy8K.rsw-1240h-620cg-true.webp',
           
         },
         {
-          url: 'https://i.im.ge/2024/05/25/Ks486X.pexels-cristian-rojas-8460228.jpeg',
+          url: 'https://i.im.ge/2024/05/28/KDiPu6.banner1.jpeg',
          
         },
       ];
